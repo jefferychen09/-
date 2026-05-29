@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="陈杰辉 Jiehui Chen 的个人作品集，聚焦嵌入式软件开发、AI 应用开发、智能硬件项目与技术笔记。"
+    />
+    <title>陈杰辉 | Embedded Software & AI Developer</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-glass>
+      <a class="brand" href="#home" aria-label="Back to home">Jiehui Chen</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#projects" data-i18n="nav.projects">项目</a>
+        <a href="#stack" data-i18n="nav.stack">能力</a>
+        <a href="#notes" data-i18n="nav.blog">博客</a>
+        <a href="#about" data-i18n="nav.about">关于</a>
+        <a href="#contact" data-i18n="nav.contact">联系</a>
+      </nav>
+      <button class="lang-toggle" type="button" aria-label="Switch language">
+        <span data-lang-option="zh">CN</span>
+        <span data-lang-option="en">EN</span>
+      </button>
+    </header>
+
+    <main id="home">
+      <section class="hero section-band">
+        <div class="hero-copy reveal">
+          <p class="eyebrow" data-i18n="hero.eyebrow">Embedded AI Portfolio</p>
+          <h1 data-i18n="hero.title">陈杰辉</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">嵌入式软件开发与 AI 应用开发</p>
+          <p class="hero-intro" data-i18n="hero.intro">
+            专注于嵌入式系统、AI 模型部署与智能硬件应用，将算法能力落到真实设备与项目场景中。
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#projects" data-i18n="hero.ctaProjects">查看项目</a>
+            <a class="button secondary" href="#notes" data-i18n="hero.ctaNotes">阅读博客</a>
+          </div>
+        </div>
+        <div class="hero-visual reveal" aria-hidden="true">
+          <img src="./public/assets/hero-embedded-ai.png" alt="" />
+          <div class="metric-panel">
+            <span class="metric-value">AI + MCU</span>
+            <span data-i18n="hero.metric">从算法到设备</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="proof-strip" aria-label="Portfolio highlights">
+        <div class="proof-grid" id="proofGrid"></div>
+      </section>
+
+      <section class="section-band dark spotlight">
+        <div class="section-inner compact reveal">
+          <p class="eyebrow" data-i18n="spotlight.eyebrow">Focus</p>
+          <h2 data-i18n="spotlight.title">把智能能力放进真实硬件。</h2>
+          <p data-i18n="spotlight.body">
+            我的项目经验覆盖机器人系统、目标识别、边缘 AI 部署、STM32 主控与多传感器协同，关注从原型到稳定运行的完整工程链路。
+          </p>
+        </div>
+      </section>
+
+      <section class="section-band design-principles">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="principles.eyebrow">Engineering Direction</p>
+            <h2 data-i18n="principles.title">关注可部署、可协同、可验证的智能硬件系统。</h2>
+          </div>
+          <div class="principle-grid" id="principleGrid"></div>
+        </div>
+      </section>
+
+      <section class="section-band" id="projects">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="projects.eyebrow">Featured Projects</p>
+            <h2 data-i18n="projects.title">从硬件到算法，从原型到落地。</h2>
+          </div>
+          <div class="project-grid" id="projectGrid"></div>
+        </div>
+      </section>
+
+      <section class="section-band muted" id="stack">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="stack.eyebrow">Tech Stack</p>
+            <h2 data-i18n="stack.title">面向嵌入式 AI 项目的能力结构。</h2>
+          </div>
+          <div class="stack-grid" id="stackGrid"></div>
+        </div>
+      </section>
+
+      <section class="section-band process-section">
+        <div class="section-inner process-layout">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="process.eyebrow">Workflow</p>
+            <h2 data-i18n="process.title">用工程流程把项目从想法推进到可演示原型。</h2>
+          </div>
+          <div class="process-rail" id="processRail"></div>
+        </div>
+      </section>
+
+      <section class="section-band achievements">
+        <div class="section-inner">
+          <div class="achievement-layout">
+            <div class="section-heading reveal">
+              <p class="eyebrow" data-i18n="achievements.eyebrow">Experience</p>
+              <h2 data-i18n="achievements.title">项目、竞赛与组织经验共同构成工程能力。</h2>
+            </div>
+            <div class="achievement-list" id="achievementList"></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-band dark" id="notes">
+        <div class="section-inner">
+          <div class="section-heading reveal">
+            <p class="eyebrow" data-i18n="notes.eyebrow">Technical Notes</p>
+            <h2 data-i18n="notes.title">记录嵌入式开发、AI 部署与项目复盘。</h2>
+          </div>
+          <div class="note-grid" id="noteGrid"></div>
+        </div>
+      </section>
+
+      <section class="section-band" id="about">
+        <div class="section-inner about-layout">
+          <div class="reveal">
+            <p class="eyebrow" data-i18n="about.eyebrow">About</p>
+            <h2 data-i18n="about.title">电子信息工程背景，聚焦智能硬件与嵌入式 AI。</h2>
+          </div>
+          <div class="about-copy reveal">
+            <p data-i18n="about.body">
+              我来自佛山大学电子信息工程专业，主要关注嵌入式系统、智能硬件与 AI 应用开发。我的项目经历覆盖机器人系统、图像识别、开发板部署、STM32 主控模块与多传感器协同，擅长在软硬件结合的场景中推进项目从原型到落地。
+            </p>
+            <div class="education">
+              <span data-i18n="about.educationLabel">教育背景</span>
+              <strong data-i18n="about.education">佛山大学 · 电子信息工程 · 本科</strong>
+              <small>2021.09 - 2025.06</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-band contact" id="contact">
+        <div class="section-inner contact-layout reveal">
+          <div>
+            <p class="eyebrow" data-i18n="contact.eyebrow">Contact</p>
+            <h2 data-i18n="contact.title">欢迎交流项目、岗位与技术方向。</h2>
+          </div>
+          <div class="contact-card">
+            <a href="tel:13433841774">13433841774</a>
+            <a href="mailto:2034821101@qq.com">2034821101@qq.com</a>
+            <span data-i18n="contact.location">广东省佛山市</span>
+            <small data-i18n="contact.social">GitHub / Gitee / LinkedIn 等链接可后续添加。</small>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>© <span id="year"></span> Jiehui Chen</span>
+      <a href="#home" data-i18n="footer.back">回到顶部</a>
+    </footer>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>
