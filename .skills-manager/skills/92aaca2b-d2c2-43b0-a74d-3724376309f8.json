@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "92aaca2b-d2c2-43b0-a74d-3724376309f8",
+  "path": "vercel-composition-patterns",
+  "path_key": "vercel-composition-patterns",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

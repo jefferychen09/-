@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5bf01c09-7e5a-4f0b-ac41-636c548d1b51",
+  "path": "meituan-travel",
+  "path_key": "meituan-travel",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

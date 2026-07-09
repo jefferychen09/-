@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "2849a82a-ae76-416e-b27a-8234f84d623e",
+  "path": "personal-mail-skill",
+  "path_key": "personal-mail-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

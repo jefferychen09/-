@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a5f187ae-fc65-41eb-8ddb-693729dfd9f2",
+  "path": "lark-openapi-explorer",
+  "path_key": "lark-openapi-explorer",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

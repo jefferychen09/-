@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "dfed86a3-3140-46d2-896d-43edb9f78582",
+  "path": "self-improvement",
+  "path_key": "self-improvement",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

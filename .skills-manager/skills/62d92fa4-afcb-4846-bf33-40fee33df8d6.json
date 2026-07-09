@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "62d92fa4-afcb-4846-bf33-40fee33df8d6",
+  "path": "bdpan-storage",
+  "path_key": "bdpan-storage",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

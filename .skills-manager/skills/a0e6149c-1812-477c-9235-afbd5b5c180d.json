@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "a0e6149c-1812-477c-9235-afbd5b5c180d",
+  "path": "tencent-esign-contract",
+  "path_key": "tencent-esign-contract",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

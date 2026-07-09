@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "7f1c8b95-7936-4d61-9120-4ad772a898b2",
+  "path": "aippt",
+  "path_key": "aippt",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

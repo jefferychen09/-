@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5c23937b-8513-44bc-9402-618c6e1bfcbd",
+  "path": "tencent-docs-2",
+  "path_key": "tencent-docs-2",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

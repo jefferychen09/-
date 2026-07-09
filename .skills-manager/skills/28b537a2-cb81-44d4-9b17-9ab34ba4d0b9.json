@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "28b537a2-cb81-44d4-9b17-9ab34ba4d0b9",
+  "path": "tencent-news",
+  "path_key": "tencent-news",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

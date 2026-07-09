@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "390da50b-dcf8-4ece-b034-a51ca1ccaff9",
+  "path": "wecomcli-setup",
+  "path_key": "wecomcli-setup",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "528af1f0-9acc-4bd7-af3c-39f16453a350",
+  "path": "email-skill",
+  "path_key": "email-skill",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

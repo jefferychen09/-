@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "5c792b0f-5ffd-4476-830f-2a542957cc2f",
+  "path": "qclaw-generate-image",
+  "path_key": "qclaw-generate-image",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}

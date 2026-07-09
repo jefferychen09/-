@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "skill_id": "8b9a5788-23ce-4771-9e27-993b975d872e",
+  "path": "qclaw-skill-creator",
+  "path_key": "qclaw-skill-creator",
+  "enabled": true,
+  "tags": [],
+  "source": {
+    "type": "import",
+    "ref": null,
+    "subpath": null,
+    "branch": null
+  }
+}
