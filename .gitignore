@@ -1,3 +1,6 @@
 .DS_Store
 netlify-site/
 jiehui-portfolio-netlify.zip
+Thumbs.db
+*.tmp
+.skills-manager.lock
